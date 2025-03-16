@@ -1,10 +1,11 @@
 ---
 title: "Local SERP Checker: How I Developed a Chrome Extension Using ChatGPT AI 💻"
-description: "Discover how I turned my idea into reality by creating the "Local SERP Checker" Chrome Extension with the help of ChatGPT AI—simplifying local SEO and improving productivity."
+description: "Discover how I turned my idea into reality by creating the Local SERP Checker Chrome Extension with the help of ChatGPT AI—simplifying local SEO and improving productivity."
 date: "2023-10-10"
 tag:
   - AI
   - Extension
+  - SEO
 ---
 
 import Callout from "@/components/Callout.astro";
