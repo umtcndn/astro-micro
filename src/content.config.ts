@@ -5,6 +5,7 @@ const blog = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: "./src/content/blog" }),
   schema: z.object({
     title: z.string(),
+    h1: z.string().optional(),
     description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().optional(),
@@ -16,6 +17,7 @@ const projects = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: "./src/content/projects" }),
   schema: z.object({
     title: z.string(),
+    h1: z.string().optional(),
     description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().optional(),

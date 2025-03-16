@@ -41,7 +41,7 @@ const { Content, headings } = await render(project);
         )}     
       </div>
       <h1 class="text-3xl font-semibold text-black dark:text-white">
-        {project.data.title}
+        {project.data.h1 || project.data.title}
       </h1>
       {
         (project.data.demoURL || project.data.repoURL) && (
