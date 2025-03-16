@@ -4,14 +4,11 @@ h1: "Building a Chrome Extension with AI: Local SERP Checker 💻"
 description: "Learn how I built the Local SERP Checker Chrome Extension using ChatGPT AI to simplify local SEO and boost productivity."
 date: "2023-10-10"
 tag:
-  - AI
-  - Extension
-  - SEO
+  - ai
+  - extension
+  - seo
 ---
 
-import Callout from "@/components/Callout.astro";
-
----
 
 🚀✨💻 When I first had the idea to develop a Chrome extension, I didn't even fully understand how it could be possible. However, in a world intertwined with technology, particularly in digital marketing and SEO, I needed a practical tool to quickly view local search results. This is where my story began, leading me to create the "Local SERP Checker" extension. But I wasn't alone on this journey—I had a powerful assistant by my side: Artificial Intelligence, specifically ChatGPT.
 
