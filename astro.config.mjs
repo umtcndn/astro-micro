@@ -21,5 +21,10 @@ export default defineConfig({
     },
   },
 
+  redirects: {
+    "/blog/04-markdown-syntax": "/",
+    "/blog/04-markdown-syntax/": "/",
+  },
+
   adapter: vercel(),
 });
